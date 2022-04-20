@@ -1,0 +1,54 @@
+class Augļi:
+    def __init__(self, nosaukums, kaloriju_daudzums, tauku_daudzums, cukura_daudzums ):
+        self.nosaukums = nosaukums
+        self.kaloriju_daudzums = kaloriju_daudzums
+        self.tauku_daudzums = tauku_daudzums
+        self.cukura_daudzums = cukura_daudzums
+
+visi_Augļi = [
+  "ābols- kcal: 0.521, tauki: 0.002, cukurs: 0.1"
+  "ananas- kcal: 0.5, tauki: 0.001, cukurs: 0.1"
+  "apelsīns- kcal: 0.471, tauki: 0.001, cukurs: 0.09"
+  "arbūzs- kcal: 0.304, tauki: 0.002, cukurs: 0.06"
+  "avenes- kcal: 0.52, tauki: 0.007, cukurs: 0.044"
+  "banāns- kcal: 0.887, tauki: 0.003, cukurs: 0.12"
+  "bumbieris- kcal: 0.571, tauki: 0.001, cukurs: 0.1"
+  "dzērvenes- kcal: 0.46, tauki: 0.001, cukurs: 0.04"
+  "ērkšķogas- kcal: 0.43, tauki: 0.009, cukurs: 0.15"
+  "granātābols- kcal: 0.68, tauki: 0.01, cukurs: 0.07"
+  "jāņogas- kcal: 0.5664, tauki: 0.004, cukurs: 0.075"
+  "kazenes- kcal: 0.43, tauki: 0.005, cukurs: 0.049"
+  "kivi- kcal: 0.6, tauki: 0.005, cukurs: 0.09"
+  "ķirši- kcal: 0.5, tauki: 0.003, cukurs: 0.08"
+  "mandarīns- kcal: 0.533, tauki: 0.003, cukurs: 0.11"
+  "mellenes- kcal: 0.57, tauki: 0.003, cukurs: 0.1"
+  "melone- kcal: 0.33, tauki: 0.002, cukurs: 0.12"
+  "nektarīns- kcal: 0.442, tauki: 0.003, cukurs: 0.08"
+  "persiki- kcal: 0.47, tauki: 0.005, cukurs: 0.11"
+  "upenes- kcal: 0.63, tauki: 0, cukurs: 0.015"
+  "vīnogas- kcal: 0.66, tauki: 0.004, cukurs: 0.16"
+  "zemenes- kcal: 0.325, tauki: 0.003, cukurs: 0.049"
+  
+]
+
+pp1 = Augļi("ābols", 0.521, 0.002, 0.1)
+pp2 = Augļi("ananas", 0.5, 0.001, 0.1)
+pp3 = Augļi("apelsīns", 0.471, 0.001, 0.09)
+pp4 = Augļi("arbūzs", 0.304, 0.002, 0.06)
+pp5 = Augļi("avenes", 0.52, 0.007, 0.044)
+pp6 = Augļi("banāns", 0.887, 0.003, 0.12)
+pp7 = Augļi("bumbieris", 0.571, 0.001, 0.1)
+pp8 = Augļi("dzērvenes", 0.46, 0.001, 0.07)
+pp9 = Augļi("ērkšķogas", 0.43, 0.009, 0.15)
+pp10 = Augļi("jāņogas", 0.5664, 0.004, 0.075)
+pp11 = Augļi("kazenes", 0.43, 0.005, 0.049)
+pp12 = Augļi("kivi", 0.6, 0.005, 0.09)
+pp13 = Augļi("ķirši", 0.5, 0.003, 0.08)
+pp14 = Augļi("mandarīns", 0.533, 0.003, 0.11)
+pp15 = Augļi("mellenes", 0.57, 0.003, 0.1)
+pp16 = Augļi("melone", 0.33, 0.002, 0.12)
+pp17 = Augļi("nektarīns", 0.442, 0.003, 0.08)
+pp18 = Augļi("persiki", 0.47, 0.005, 0.11)
+pp19 = Augļi("upenes", 0.63, 0, 0.015)
+pp20 = Augļi("vīnogas", 0.66, 0.004, 0.16)
+pp21 = Augļi("zemenes", 0.325, 0.003, 0.049)
